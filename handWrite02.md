@@ -86,8 +86,8 @@ cd /root/code/InternLM
 streamlit run web_demo.py --server.address 127.0.0.1 --server.port 6006
 ```
    6. 运行结果如下：
-![avatar](pic/Screenshot 2024-01-07 at 15.16.16.png)
-![avatar](pic/Screenshot 2024-01-07 at 15.21.17.png)
+![avatar](pic/1.png)
+![avatar2](pic/2.png)
 
 3. Lagent智能体工具调用Demo2
    1. 使用Demo1的模型和conda环境
@@ -319,7 +319,7 @@ if __name__ == '__main__':
     main()
 ```
    4. 运行结果如下：
-    ![avatar](pic/Screenshot 2024-01-07 at 15.29.53.png)
+    ![avatar3](pic/3.png)
 4. 多模态项目Demo3:
    1. 使用之前的虚拟环境
    2. 安装需要扩展包（版本指定）
@@ -339,5 +339,5 @@ cd /root/code/InternLM-XComposer
 git checkout 3e8c79051a1356b9c388a6447867355c0634932d  # 最好保证和教程的 commit 版本一致
 ```
    5. demo运行结果如下：
-![avatar](pic/Screenshot 2024-01-07 at 15.43.00.png)
+![avatar4](pic/4.png)
 
