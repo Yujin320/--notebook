@@ -2,9 +2,10 @@
 ## -- 基于 InternLM 和 LangChain 搭建你的知识库
 
 1. 下载模型过程
-
+![avatar](pic/10.png)
 2. 运行截图
-
+![avatar](pic/11.png)
+![avatar](pic/12.png)
 
 ## -- 基于自己的知识内容搭建问答机器人
 
