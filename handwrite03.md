@@ -19,6 +19,7 @@ os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 # 下载模型
 os.system('huggingface-cli download --resume-download sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --local-dir /root/data/model/sentence-transformer')
 ```
+![avatar](pic/10.png)
    4. 下载NLTK资源（构建开源词向量时需要nltk库的一些资源，为了防止网络原因提前下载）
 ```sh
 cd /root
@@ -265,3 +266,4 @@ class Model_center():
             return e, chat_history
 
 ```
+![avatar](pic/12.png)
